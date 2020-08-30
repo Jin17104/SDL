@@ -1,2 +1,3 @@
 # SDL
-First Real Project Enjoy the Coding 
+first Github 2D game using API
+enjoy
