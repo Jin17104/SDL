@@ -11,9 +11,28 @@
 			"file": "src/main.cpp",
 			"settings":
 			{
-				"buffer_size": 179,
+				"buffer_size": 656,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "include/RenderWindow.hpp",
+			"settings":
+			{
+				"buffer_size": 230,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderwindow.cpp",
+			"settings":
+			{
+				"buffer_size": 564,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "#include <SDL2/SDL2.h>"
 			}
 		}
 	],
@@ -81,10 +100,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Personal/SDL/2DGame"
+		"/D/Personal/SDL/2D_Game",
+		"/D/Personal/SDL/2D_Game/bin",
+		"/D/Personal/SDL/2D_Game/include",
+		"/D/Personal/SDL/2D_Game/src"
 	],
 	"file_history":
 	[
+		"/D/Personal/SDL/2D_Game/src/GameManager.cpp",
 		"/C/Users/Jin/AppData/Roaming/Sublime Text 3/Packages/Default/exec.py"
 	],
 	"find":
@@ -129,15 +152,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 179,
+						"buffer_size": 656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								179,
-								179
+								98,
+								98
 							]
 						],
 						"settings":
@@ -150,6 +173,63 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "include/RenderWindow.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/renderwindow.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								501,
+								501
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <SDL2/SDL2.h>",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
 				}
 			]
 		}
@@ -160,7 +240,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 37.0
 	},
 	"layout":
 	{
@@ -193,7 +273,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Build Debug",
 	"project": "SDL_Template.sublime-project",
 	"replace":
 	{
@@ -235,7 +315,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
